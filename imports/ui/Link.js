@@ -6,6 +6,7 @@ export default class Link extends React.Component {
     onLogout(){
         Accounts.logout();
     }
+
     render(){
 
         return (
